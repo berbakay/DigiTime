@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A1C2F2C26850C0F00C52EFC /* SKProduct-LocalizedPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1C2F2B26850C0F00C52EFC /* SKProduct-LocalizedPrice.swift */; };
+		2A1C2F3426850D0F00C52EFC /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1C2F3326850D0F00C52EFC /* ProductView.swift */; };
+		2A1C2F3926850E8500C52EFC /* UnlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1C2F3826850E8500C52EFC /* UnlockView.swift */; };
+		2A1C2F46268671EE00C52EFC /* ProjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1C2F45268671EE00C52EFC /* ProjectViewModel.swift */; };
+		2A1C2F4B268D09C700C52EFC /* TimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1C2F4A268D09C700C52EFC /* TimePickerView.swift */; };
+		2A1C2F5026961C6D00C52EFC /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1C2F4F26961C6D00C52EFC /* AboutView.swift */; };
+		2A8D8D7D267D2CD300BFB33A /* UnlockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8D8D7C267D2CD200BFB33A /* UnlockManager.swift */; };
+		2A8D8D82267D32AC00BFB33A /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8D8D81267D32AC00BFB33A /* DataController.swift */; };
 		2AEADBE3263D93AD00ABCCA1 /* DigiTime WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2AEADBE2263D93AD00ABCCA1 /* DigiTime WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2AEADBE8263D93AF00ABCCA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AEADBE7263D93AF00ABCCA1 /* Assets.xcassets */; };
 		2AEADBEF263D93AF00ABCCA1 /* DigiTime WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2AEADBEE263D93AF00ABCCA1 /* DigiTime WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2AEADBF4263D93AF00ABCCA1 /* DigiTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEADBF3263D93AF00ABCCA1 /* DigiTimeApp.swift */; };
 		2AEADBF6263D93AF00ABCCA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEADBF5263D93AF00ABCCA1 /* ContentView.swift */; };
-		2AEADBF8263D93AF00ABCCA1 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEADBF7263D93AF00ABCCA1 /* NotificationController.swift */; };
-		2AEADBFA263D93AF00ABCCA1 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEADBF9263D93AF00ABCCA1 /* NotificationView.swift */; };
 		2AEADBFC263D93AF00ABCCA1 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEADBFB263D93AF00ABCCA1 /* ComplicationController.swift */; };
 		2AEADBFE263D93B000ABCCA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AEADBFD263D93B000ABCCA1 /* Assets.xcassets */; };
 		2AEADC01263D93B000ABCCA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AEADC00263D93B000ABCCA1 /* Preview Assets.xcassets */; };
@@ -62,6 +68,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2A1C2F2B26850C0F00C52EFC /* SKProduct-LocalizedPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKProduct-LocalizedPrice.swift"; sourceTree = "<group>"; };
+		2A1C2F3326850D0F00C52EFC /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		2A1C2F3826850E8500C52EFC /* UnlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockView.swift; sourceTree = "<group>"; };
+		2A1C2F45268671EE00C52EFC /* ProjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewModel.swift; sourceTree = "<group>"; };
+		2A1C2F4A268D09C700C52EFC /* TimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerView.swift; sourceTree = "<group>"; };
+		2A1C2F4F26961C6D00C52EFC /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		2A8D8D7B26793A9700BFB33A /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
+		2A8D8D7C267D2CD200BFB33A /* UnlockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockManager.swift; sourceTree = "<group>"; };
+		2A8D8D81267D32AC00BFB33A /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		2AEADBDE263D93AD00ABCCA1 /* DigiTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigiTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AEADBE2263D93AD00ABCCA1 /* DigiTime WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DigiTime WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AEADBE7263D93AF00ABCCA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,13 +84,10 @@
 		2AEADBEE263D93AF00ABCCA1 /* DigiTime WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DigiTime WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AEADBF3263D93AF00ABCCA1 /* DigiTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigiTimeApp.swift; sourceTree = "<group>"; };
 		2AEADBF5263D93AF00ABCCA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2AEADBF7263D93AF00ABCCA1 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		2AEADBF9263D93AF00ABCCA1 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		2AEADBFB263D93AF00ABCCA1 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		2AEADBFD263D93B000ABCCA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AEADC00263D93B000ABCCA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2AEADC02263D93B000ABCCA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2AEADC03263D93B000ABCCA1 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2ACA92F22698DBB800D9EA22 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A1C2F3826850E8500C52EFC /* UnlockView.swift */,
+				2A1C2F3326850D0F00C52EFC /* ProductView.swift */,
+				2A1C2F4F26961C6D00C52EFC /* AboutView.swift */,
+				2AEADBF5263D93AF00ABCCA1 /* ContentView.swift */,
+				2A1C2F4A268D09C700C52EFC /* TimePickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2AEADBD7263D93AD00ABCCA1 = {
 			isa = PBXGroup;
 			children = (
@@ -121,13 +145,15 @@
 			isa = PBXGroup;
 			children = (
 				2AEADBF3263D93AF00ABCCA1 /* DigiTimeApp.swift */,
-				2AEADBF5263D93AF00ABCCA1 /* ContentView.swift */,
-				2AEADBF7263D93AF00ABCCA1 /* NotificationController.swift */,
-				2AEADBF9263D93AF00ABCCA1 /* NotificationView.swift */,
+				2A1C2F45268671EE00C52EFC /* ProjectViewModel.swift */,
 				2AEADBFB263D93AF00ABCCA1 /* ComplicationController.swift */,
+				2A8D8D7B26793A9700BFB33A /* Configuration.storekit */,
+				2A1C2F2B26850C0F00C52EFC /* SKProduct-LocalizedPrice.swift */,
+				2A8D8D7C267D2CD200BFB33A /* UnlockManager.swift */,
+				2A8D8D81267D32AC00BFB33A /* DataController.swift */,
+				2ACA92F22698DBB800D9EA22 /* Views */,
 				2AEADBFD263D93B000ABCCA1 /* Assets.xcassets */,
 				2AEADC02263D93B000ABCCA1 /* Info.plist */,
-				2AEADC03263D93B000ABCCA1 /* PushNotificationPayload.apns */,
 				2AEADBFF263D93B000ABCCA1 /* Preview Content */,
 			);
 			path = "DigiTime WatchKit Extension";
@@ -267,11 +293,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AEADBF8263D93AF00ABCCA1 /* NotificationController.swift in Sources */,
+				2A1C2F4B268D09C700C52EFC /* TimePickerView.swift in Sources */,
+				2A8D8D82267D32AC00BFB33A /* DataController.swift in Sources */,
+				2A1C2F3426850D0F00C52EFC /* ProductView.swift in Sources */,
+				2A1C2F5026961C6D00C52EFC /* AboutView.swift in Sources */,
 				2AEADBF6263D93AF00ABCCA1 /* ContentView.swift in Sources */,
+				2A1C2F3926850E8500C52EFC /* UnlockView.swift in Sources */,
 				2AEADBFC263D93AF00ABCCA1 /* ComplicationController.swift in Sources */,
 				2AEADBF4263D93AF00ABCCA1 /* DigiTimeApp.swift in Sources */,
-				2AEADBFA263D93AF00ABCCA1 /* NotificationView.swift in Sources */,
+				2A8D8D7D267D2CD300BFB33A /* UnlockManager.swift in Sources */,
+				2A1C2F2C26850C0F00C52EFC /* SKProduct-LocalizedPrice.swift in Sources */,
+				2A1C2F46268671EE00C52EFC /* ProjectViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "DigiTime WatchKit Extension/DigiTime WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DigiTime WatchKit Extension/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -432,6 +465,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "DigiTime WatchKit Extension/DigiTime WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DigiTime WatchKit Extension/Preview Content\"";
 				ENABLE_PREVIEWS = YES;

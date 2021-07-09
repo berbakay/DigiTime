@@ -9,13 +9,24 @@ import SwiftUI
 
 @main
 struct DigiTimeApp: App {
+    @StateObject var dataController: DataController
+    @StateObject var unlockManager: UnlockManager
+    
     @SceneBuilder var body: some Scene {
         WindowGroup {
             NavigationView {
-                ContentView()
+                ContentView(dataController: dataController)
+                    .environment(\.managedObjectContext, dataController.container.viewContext)
+                    .environmentObject(dataController)
+                    .environmentObject(unlockManager)
             }
         }
-
-        WKNotificationScene(controller: NotificationController.self, category: "myCategory")
+    }
+    
+    init() {
+        let dataController = DataController()
+        let unlockManager = UnlockManager(dataController: dataController)
+        _dataController = StateObject(wrappedValue: dataController)
+        _unlockManager = StateObject(wrappedValue: unlockManager)
     }
 }
